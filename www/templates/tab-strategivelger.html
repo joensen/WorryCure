@@ -1,0 +1,14 @@
+<ion-view view-title="{{question.header}}">
+  <ion-content>
+  	<div class="content">
+	  	<p class="question-text">{{question.text}}</p>
+	  	<div ng-if="question.buttons !== undefined" ng-repeat="button in question.buttons">
+	  		<a class="button button-block button-calm button-text" href="#/tab/strategivelger/{{button.link}}">{{button.text}}</a>
+	  	</div>
+	  	<p class="strategy-text" ng-if="question.strategies !== undefined">Les mer om:<p>
+	  	<div ng-if="question.strategies !== undefined" ng-repeat="strategy in question.strategies">
+	  		<a class="button button-block button-text button-dark" href="#/tab/strategivelger/strategi/{{strategy.link}}">{{strategy.text}}</a>
+	  	</div>
+	</div>
+  </ion-content>
+</ion-view>

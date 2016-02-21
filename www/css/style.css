@@ -1,0 +1,49 @@
+.question-text {
+	font-size: 1.4em;
+	text-align: center;
+	margin: 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.strategy-text {
+	font-size: 1.4em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content {
+	margin: 20px;
+}
+
+.button-text {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+img {
+	width: 40%;
+	border: 2px solid blue;
+}
+
+ol {
+	list-style-type: decimal;
+	padding-left: 20px;
+}
+
+ul {
+	list-style-type: circle;
+	padding-left: 20px;
+}
+
+.title {
+	font-weight: bold;
+}
